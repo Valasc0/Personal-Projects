@@ -1,0 +1,78 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    background-color: rgba(3, 3, 35, 0.9);
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    
+}
+
+.container{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+
+.box:hover{
+    background-color: rgba(255, 255, 255, 0.8)
+    
+    
+
+
+}
+.box{
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+
+.in_Alternative{
+    margin-bottom:40px ;
+    margin-top: 15px;
+}
+.up_Alternative{
+    margin-top: 15px;
+}
+
+.button{
+    padding: 5px;
+    border-radius: 10px;
+    border-color: whitesmoke;
+    
+}
+
+.button:hover{
+    background-color: rgba(255, 255, 255, 0.9);
+    scale: 1.2;
+    
+    
+}
+
+
+.confirm{
+    width: 170px ;
+
+    border-color: whitesmoke;
+}
+
+.confirm:hover{
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+
+
